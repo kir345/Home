@@ -1,0 +1,15 @@
+C:\Users\к\Desktop\Нome1\HOME03\obj\Debug\net6.0\HOME03.csproj.AssemblyReference.cache
+C:\Users\к\Desktop\Нome1\HOME03\obj\Debug\net6.0\HOME03.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\к\Desktop\Нome1\HOME03\obj\Debug\net6.0\HOME03.AssemblyInfoInputs.cache
+C:\Users\к\Desktop\Нome1\HOME03\obj\Debug\net6.0\HOME03.AssemblyInfo.cs
+C:\Users\к\Desktop\Нome1\HOME03\obj\Debug\net6.0\HOME03.csproj.CoreCompileInputs.cache
+C:\Users\к\Desktop\Нome1\HOME03\bin\Debug\net6.0\HOME03.exe
+C:\Users\к\Desktop\Нome1\HOME03\bin\Debug\net6.0\HOME03.deps.json
+C:\Users\к\Desktop\Нome1\HOME03\bin\Debug\net6.0\HOME03.runtimeconfig.json
+C:\Users\к\Desktop\Нome1\HOME03\bin\Debug\net6.0\HOME03.dll
+C:\Users\к\Desktop\Нome1\HOME03\bin\Debug\net6.0\HOME03.pdb
+C:\Users\к\Desktop\Нome1\HOME03\obj\Debug\net6.0\HOME03.dll
+C:\Users\к\Desktop\Нome1\HOME03\obj\Debug\net6.0\refint\HOME03.dll
+C:\Users\к\Desktop\Нome1\HOME03\obj\Debug\net6.0\HOME03.pdb
+C:\Users\к\Desktop\Нome1\HOME03\obj\Debug\net6.0\HOME03.genruntimeconfig.cache
+C:\Users\к\Desktop\Нome1\HOME03\obj\Debug\net6.0\ref\HOME03.dll
