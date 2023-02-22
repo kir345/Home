@@ -1,22 +1,21 @@
-﻿// Написать программу, которая принимает на вход пятизначное число и проверяет, является 
-// ли оно палиндроном.
-// 14212 -> нет
-// 12821 -> да 
-// 23432 -> да
+﻿// Напиcать программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
+//* при N < 0, нужно вывести от N до -1
+// 3 -> 1, 8, 27
+// 5 -> 1, 8, 27, 64, 125
 
 Console.Clear();
-Console.WriteLine("Введите число: ");
-string num = Console.ReadLine();
-int len = num.Length;
 
-if (len == 5)
+int number = ReadInt("Введите число N: ");
+
+for (int i = 1; i <= number; i++)
+{ 
+    Console.Write($"{i*i*i} ");
+}
+
+
+// Функция ввода сообщения
+int ReadInt(string message)
 {
-    if(num[0] == num[4] && num[1] == num[3])
-    {
-        Console.WriteLine($"{num} = да");
-    }
-else 
-    {
-        Console.WriteLine($"{num} = нет");
-    }
+    Console.Write(message);
+    return Convert.ToInt32(Console.ReadLine());
 }
