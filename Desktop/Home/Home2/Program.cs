@@ -4,9 +4,9 @@
 // A(7,-5,0); B(1,-1,9) -> 11.53
 
 Console.Clear();
-Console.WriteLine(" " );
+Console.WriteLine("");
 
-int X1 = ReadInt("Введите координату X первой точки: ");
+int X1 =  ReadInt("Введите координату X первой точки: ");
 int Y1 = ReadInt("Введите координату Y первой точки: ");
 int Z1 = ReadInt("Введите координату Z первой точки: ");
 int X2 = ReadInt("Введите координату X второй точки: ");
@@ -17,7 +17,7 @@ int A = X2 - X1;
 int B = Y2 - Y1;
 int C = Z2 - Z1;
 
-double legth = Math.Sqrt(A * A + B * B + C *C);
+double  legth =  Math.Sqrt(A  * A  + B  * B  + C  *C);
 Console.WriteLine($"Длина отрезка {legth}");
 
 // Функция ввода сообщения
