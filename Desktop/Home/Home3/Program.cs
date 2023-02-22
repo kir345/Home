@@ -1,28 +1,21 @@
-﻿// Написать программу, которая принимает на вход координаты двух точек и находит расстояние между 
-// ними в 3D пространстве.
-// А(3,6,8); В(2,1,-7) -> 15.84
-// A(7,-5,0); B(1,-1,9) -> 11.53
+﻿// Напиcать программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
+//* при N < 0, нужно вывести от N до -1
+// 3 -> 1, 8, 27
+// 5 -> 1, 8, 27, 64, 125
 
 Console.Clear();
-Console.WriteLine(" " );
 
-int X1 = ReadInt("Введите координату X первой точки: ");
-int Y1 = ReadInt("Введите координату Y первой точки: ");
-int Z1 = ReadInt("Введите координату Z первой точки: ");
-int X2 = ReadInt("Введите координату X второй точки: ");
-int Y2 = ReadInt("Введите координату Y второй точки: ");
-int Z2 = ReadInt("Введите координату Z второй точки: ");
+int number = ReadInt("Введите число N: ");
 
-int A = X2 - X1;
-int B = Y2 - Y1;
-int C = Z2 - Z1;
+for (int i = 1; i <= number; i++)
+{ 
+    Console.Write($"{i*i*i} ");
+}
 
-double legth = Math.Sqrt(A * A + B * B + C *C);
-Console.WriteLine($"Длина отрезка {legth}");
 
 // Функция ввода сообщения
 int ReadInt(string message)
 {
-    Console.WriteLine(message);
+    Console.Write(message);
     return Convert.ToInt32(Console.ReadLine());
 }
